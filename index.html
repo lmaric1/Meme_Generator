@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meme Generator</title>
+</head>
+<body>
+    <div class="meme-container">
+        <img id="memeImage" src="default.jpg" alt="Default Meme">
+        <form id="memeForm">
+            <label for="topText">Gornji tekst:</label>
+            <input type="text" id="topText" name="topText" required>
+            <label for="bottomText">Donji tekst:</label>
+            <input type="text" id="bottomText" name="bottomText" required>
+            <button type="button" onclick="generateMeme()">Generiraj Meme</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
